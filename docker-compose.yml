@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  backend:
+    build: https://github.com/agoose77/multiplayer-crossword-backend.git
+    ports:
+      - 5000:5000
+
+  frontend:
+    build: https://github.com/agoose77/multiplayer-crossword-frontend.git
+    ports:
+      - 8080:8080
+    
